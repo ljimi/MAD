@@ -3,32 +3,74 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		9A583E27265250A300ECA602 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E26265250A300ECA602 /* AppDelegate.m */; };
-		9A583E2A265250A300ECA602 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E29265250A300ECA602 /* SceneDelegate.m */; };
 		9A583E2D265250A300ECA602 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E2C265250A300ECA602 /* ViewController.m */; };
-		9A583E30265250A300ECA602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A583E2E265250A300ECA602 /* Main.storyboard */; };
 		9A583E32265250A400ECA602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A583E31265250A400ECA602 /* Assets.xcassets */; };
 		9A583E35265250A400ECA602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A583E33265250A400ECA602 /* LaunchScreen.storyboard */; };
 		9A583E38265250A400ECA602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E37265250A400ECA602 /* main.m */; };
+		9A583E5A2652527100ECA602 /* UIColor+MADColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E412652527100ECA602 /* UIColor+MADColor.m */; };
+		9A583E5B2652527100ECA602 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E442652527100ECA602 /* UIImage+FixOrientation.m */; };
+		9A583E5C2652527100ECA602 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E462652527100ECA602 /* MADViewController.m */; };
+		9A583E5D2652527100ECA602 /* MADEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E492652527100ECA602 /* MADEditViewController.m */; };
+		9A583E5E2652527100ECA602 /* MADShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E4A2652527100ECA602 /* MADShowImageViewController.m */; };
+		9A583E5F2652527100ECA602 /* MADManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E4C2652527100ECA602 /* MADManager.m */; };
+		9A583E602652527100ECA602 /* MADSnapshotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E502652527100ECA602 /* MADSnapshotButton.m */; };
+		9A583E612652527100ECA602 /* MADCameraCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E512652527100ECA602 /* MADCameraCaptureView.m */; };
+		9A583E622652527100ECA602 /* MADCropScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E522652527100ECA602 /* MADCropScaleView.m */; };
+		9A583E632652527100ECA602 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E562652527100ECA602 /* Tool.m */; };
+		9A583E642652527100ECA602 /* MADCGTransfromHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E592652527100ECA602 /* MADCGTransfromHelper.m */; };
+		9A583E7A265256A100ECA602 /* NSObject+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E79265256A100ECA602 /* NSObject+CurrentViewController.m */; };
+		9A583E812652571300ECA602 /* UIView+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E7D2652571300ECA602 /* UIView+Rect.m */; };
+		9A583E822652571300ECA602 /* UIView+Corners.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A583E802652571300ECA602 /* UIView+Corners.m */; };
+		A6645FE0DC6E75B54C6E54B7 /* Pods_Tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E195690A66236D2B175C721E /* Pods_Tools.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A583E22265250A300ECA602 /* Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A583E25265250A300ECA602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A583E26265250A300ECA602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A583E28265250A300ECA602 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9A583E29265250A300ECA602 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9A583E2B265250A300ECA602 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9A583E2C265250A300ECA602 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9A583E2F265250A300ECA602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A583E31265250A400ECA602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A583E34265250A400ECA602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A583E36265250A400ECA602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A583E37265250A400ECA602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A583E412652527100ECA602 /* UIColor+MADColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MADColor.m"; sourceTree = "<group>"; };
+		9A583E422652527100ECA602 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		9A583E432652527100ECA602 /* UIColor+MADColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MADColor.h"; sourceTree = "<group>"; };
+		9A583E442652527100ECA602 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		9A583E462652527100ECA602 /* MADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		9A583E472652527100ECA602 /* MADManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADManager.h; sourceTree = "<group>"; };
+		9A583E482652527100ECA602 /* MADShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADShowImageViewController.h; sourceTree = "<group>"; };
+		9A583E492652527100ECA602 /* MADEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADEditViewController.m; sourceTree = "<group>"; };
+		9A583E4A2652527100ECA602 /* MADShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADShowImageViewController.m; sourceTree = "<group>"; };
+		9A583E4B2652527100ECA602 /* MADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		9A583E4C2652527100ECA602 /* MADManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADManager.m; sourceTree = "<group>"; };
+		9A583E4D2652527100ECA602 /* MADEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADEditViewController.h; sourceTree = "<group>"; };
+		9A583E4F2652527100ECA602 /* MADCropScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADCropScaleView.h; sourceTree = "<group>"; };
+		9A583E502652527100ECA602 /* MADSnapshotButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADSnapshotButton.m; sourceTree = "<group>"; };
+		9A583E512652527100ECA602 /* MADCameraCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADCameraCaptureView.m; sourceTree = "<group>"; };
+		9A583E522652527100ECA602 /* MADCropScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADCropScaleView.m; sourceTree = "<group>"; };
+		9A583E532652527100ECA602 /* MADSnapshotButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADSnapshotButton.h; sourceTree = "<group>"; };
+		9A583E542652527100ECA602 /* MADCameraCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADCameraCaptureView.h; sourceTree = "<group>"; };
+		9A583E562652527100ECA602 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		9A583E572652527100ECA602 /* MADCGTransfromHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MADCGTransfromHelper.h; sourceTree = "<group>"; };
+		9A583E582652527100ECA602 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		9A583E592652527100ECA602 /* MADCGTransfromHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MADCGTransfromHelper.m; sourceTree = "<group>"; };
+		9A583E692652530700ECA602 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9A583E78265256A100ECA602 /* NSObject+CurrentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CurrentViewController.h"; sourceTree = "<group>"; };
+		9A583E79265256A100ECA602 /* NSObject+CurrentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CurrentViewController.m"; sourceTree = "<group>"; };
+		9A583E7D2652571300ECA602 /* UIView+Rect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rect.m"; sourceTree = "<group>"; };
+		9A583E7E2652571300ECA602 /* UIView+Corners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Corners.h"; sourceTree = "<group>"; };
+		9A583E7F2652571300ECA602 /* UIView+Rect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Rect.h"; sourceTree = "<group>"; };
+		9A583E802652571300ECA602 /* UIView+Corners.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Corners.m"; sourceTree = "<group>"; };
+		D2EBF04509CC263C9462A40B /* Pods-Tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.release.xcconfig"; path = "Target Support Files/Pods-Tools/Pods-Tools.release.xcconfig"; sourceTree = "<group>"; };
+		DB11E3E83E504D1C3805BE9D /* Pods-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.debug.xcconfig"; path = "Target Support Files/Pods-Tools/Pods-Tools.debug.xcconfig"; sourceTree = "<group>"; };
+		E195690A66236D2B175C721E /* Pods_Tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +78,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6645FE0DC6E75B54C6E54B7 /* Pods_Tools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E73DAE6F29662478E739C5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB11E3E83E504D1C3805BE9D /* Pods-Tools.debug.xcconfig */,
+				D2EBF04509CC263C9462A40B /* Pods-Tools.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7408DE1745BC03E419049351 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E195690A66236D2B175C721E /* Pods_Tools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A583E19265250A300ECA602 = {
 			isa = PBXGroup;
 			children = (
 				9A583E24265250A300ECA602 /* Tools */,
 				9A583E23265250A300ECA602 /* Products */,
+				2E73DAE6F29662478E739C5D /* Pods */,
+				7408DE1745BC03E419049351 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,17 +125,99 @@
 			children = (
 				9A583E25265250A300ECA602 /* AppDelegate.h */,
 				9A583E26265250A300ECA602 /* AppDelegate.m */,
-				9A583E28265250A300ECA602 /* SceneDelegate.h */,
-				9A583E29265250A300ECA602 /* SceneDelegate.m */,
 				9A583E2B265250A300ECA602 /* ViewController.h */,
 				9A583E2C265250A300ECA602 /* ViewController.m */,
-				9A583E2E265250A300ECA602 /* Main.storyboard */,
+				9A583E712652560300ECA602 /* Other */,
+				9A583E3F2652527100ECA602 /* MAD */,
 				9A583E31265250A400ECA602 /* Assets.xcassets */,
 				9A583E33265250A400ECA602 /* LaunchScreen.storyboard */,
 				9A583E36265250A400ECA602 /* Info.plist */,
 				9A583E37265250A400ECA602 /* main.m */,
+				9A583E692652530700ECA602 /* PrefixHeader.pch */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		9A583E3F2652527100ECA602 /* MAD */ = {
+			isa = PBXGroup;
+			children = (
+				9A583E402652527100ECA602 /* Category */,
+				9A583E452652527100ECA602 /* Controller */,
+				9A583E4E2652527100ECA602 /* View */,
+				9A583E552652527100ECA602 /* Tool */,
+			);
+			path = MAD;
+			sourceTree = "<group>";
+		};
+		9A583E402652527100ECA602 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9A583E412652527100ECA602 /* UIColor+MADColor.m */,
+				9A583E422652527100ECA602 /* UIImage+FixOrientation.h */,
+				9A583E432652527100ECA602 /* UIColor+MADColor.h */,
+				9A583E442652527100ECA602 /* UIImage+FixOrientation.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9A583E452652527100ECA602 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A583E4B2652527100ECA602 /* MADViewController.h */,
+				9A583E462652527100ECA602 /* MADViewController.m */,
+				9A583E472652527100ECA602 /* MADManager.h */,
+				9A583E4C2652527100ECA602 /* MADManager.m */,
+				9A583E4A2652527100ECA602 /* MADShowImageViewController.m */,
+				9A583E482652527100ECA602 /* MADShowImageViewController.h */,
+				9A583E4D2652527100ECA602 /* MADEditViewController.h */,
+				9A583E492652527100ECA602 /* MADEditViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A583E4E2652527100ECA602 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A583E4F2652527100ECA602 /* MADCropScaleView.h */,
+				9A583E502652527100ECA602 /* MADSnapshotButton.m */,
+				9A583E512652527100ECA602 /* MADCameraCaptureView.m */,
+				9A583E522652527100ECA602 /* MADCropScaleView.m */,
+				9A583E532652527100ECA602 /* MADSnapshotButton.h */,
+				9A583E542652527100ECA602 /* MADCameraCaptureView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A583E552652527100ECA602 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				9A583E562652527100ECA602 /* Tool.m */,
+				9A583E572652527100ECA602 /* MADCGTransfromHelper.h */,
+				9A583E582652527100ECA602 /* Tool.h */,
+				9A583E592652527100ECA602 /* MADCGTransfromHelper.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		9A583E712652560300ECA602 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9A583E7C2652571300ECA602 /* UIView */,
+				9A583E78265256A100ECA602 /* NSObject+CurrentViewController.h */,
+				9A583E79265256A100ECA602 /* NSObject+CurrentViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9A583E7C2652571300ECA602 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				9A583E7F2652571300ECA602 /* UIView+Rect.h */,
+				9A583E7D2652571300ECA602 /* UIView+Rect.m */,
+				9A583E7E2652571300ECA602 /* UIView+Corners.h */,
+				9A583E802652571300ECA602 /* UIView+Corners.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A583E3B265250A400ECA602 /* Build configuration list for PBXNativeTarget "Tools" */;
 			buildPhases = (
+				EEBB24D91EB7F2403ED06CBA /* [CP] Check Pods Manifest.lock */,
 				9A583E1E265250A300ECA602 /* Sources */,
 				9A583E1F265250A300ECA602 /* Frameworks */,
 				9A583E20265250A300ECA602 /* Resources */,
+				E7CAD389BE1B6A4084B59EFD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,35 +280,81 @@
 			files = (
 				9A583E35265250A400ECA602 /* LaunchScreen.storyboard in Resources */,
 				9A583E32265250A400ECA602 /* Assets.xcassets in Resources */,
-				9A583E30265250A300ECA602 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E7CAD389BE1B6A4084B59EFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tools/Pods-Tools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tools/Pods-Tools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tools/Pods-Tools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEBB24D91EB7F2403ED06CBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A583E1E265250A300ECA602 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A583E812652571300ECA602 /* UIView+Rect.m in Sources */,
+				9A583E7A265256A100ECA602 /* NSObject+CurrentViewController.m in Sources */,
 				9A583E2D265250A300ECA602 /* ViewController.m in Sources */,
+				9A583E5D2652527100ECA602 /* MADEditViewController.m in Sources */,
+				9A583E5F2652527100ECA602 /* MADManager.m in Sources */,
+				9A583E612652527100ECA602 /* MADCameraCaptureView.m in Sources */,
+				9A583E602652527100ECA602 /* MADSnapshotButton.m in Sources */,
+				9A583E822652571300ECA602 /* UIView+Corners.m in Sources */,
+				9A583E642652527100ECA602 /* MADCGTransfromHelper.m in Sources */,
+				9A583E622652527100ECA602 /* MADCropScaleView.m in Sources */,
 				9A583E27265250A300ECA602 /* AppDelegate.m in Sources */,
+				9A583E5A2652527100ECA602 /* UIColor+MADColor.m in Sources */,
 				9A583E38265250A400ECA602 /* main.m in Sources */,
-				9A583E2A265250A300ECA602 /* SceneDelegate.m in Sources */,
+				9A583E632652527100ECA602 /* Tool.m in Sources */,
+				9A583E5B2652527100ECA602 /* UIImage+FixOrientation.m in Sources */,
+				9A583E5C2652527100ECA602 /* MADViewController.m in Sources */,
+				9A583E5E2652527100ECA602 /* MADShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9A583E2E265250A300ECA602 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A583E2F265250A300ECA602 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A583E33265250A400ECA602 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,16 +480,20 @@
 		};
 		9A583E3C265250A400ECA602 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB11E3E83E504D1C3805BE9D /* Pods-Tools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR34DHT6Q7;
+				GCC_PREFIX_HEADER = Tools/PrefixHeader.pch;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swift.cn.Tools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifemoment.hs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,16 +501,20 @@
 		};
 		9A583E3D265250A400ECA602 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EBF04509CC263C9462A40B /* Pods-Tools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DR34DHT6Q7;
+				GCC_PREFIX_HEADER = Tools/PrefixHeader.pch;
 				INFOPLIST_FILE = Tools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = swift.cn.Tools;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifemoment.hs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

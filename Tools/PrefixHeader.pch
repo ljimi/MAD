@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  Tools
+//
+//  Created by fission on 2021/5/17.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Masonry.h"
+#import "SVProgressHUD.h"
+#import "NSObject+CurrentViewController.h"
+#import "UIView+Rect.h"
+#import "UIView+Corners.h"
+
+
+
+#define SCREENWIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREENHEIGHT [UIScreen mainScreen].bounds.size.height
+#define NAVBARHEIGHT ([self getCurrentVC].navigationController.navigationBar.y + [self getCurrentVC].navigationController.navigationBar.height)
+#define TABBARHEIGHT (self.tabBarController.tabBar.y + self.tabBarController.tabBar.height)
+
+
+#endif /* PrefixHeader_pch */
